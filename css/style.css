@@ -1,0 +1,129 @@
+#background {
+    background-image: url("https://media.istockphoto.com/id/529998558/photo/jurassic-mamenchisaurus-habitat.webp?a=1&b=1&s=612x612&w=0&k=20&c=qNvI2mj176ELkX9wqZnou_AqbgiB8GxtTYD0mFMXxoQ=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#game{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+text-align: center;
+margin: 15px auto 0 auto;
+}
+
+#message {
+    
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+}
+
+#tallies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+
+}
+
+#instructions {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 25%;
+    padding: 5px 0;
+    border-radius: 0;
+}
+
+#win-tally {
+    border: 1px solid black;
+    padding: 5px;
+    width: fit-content;
+    margin: 10px;
+}
+
+#matches-tally {
+    border: 1px solid black;
+    padding: 5px;
+    width: fit-content;
+    margin: 10px;
+}
+
+#buttons {
+display: flex;
+justify-content: center;
+width: 95%;
+gap: 10px;
+}
+
+#start {
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 26.7%;
+    padding: 5px 0;
+    border-radius: 0;
+}
+
+#show {
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 26.7%;
+    padding: 5px 0;
+    border-radius: 0;
+}
+
+#reset {
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 26.7%;
+    padding: 5px 0;
+    border-radius: 0;
+}
+
+#board {
+
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.sqr {
+    height: 22dvh;
+    aspect-ratio: 1/1.5;
+    border: 2px solid black;
+    font-size: 64px;
+    text-align: center;
+    margin: 3px 3px;
+}
+
+.sqr img {
+    height: 22dvh;
+    aspect-ratio: 1/1.5;
+    pointer-events: none;
+}
+
+#iImg {
+    margin: auto auto;
+    width: 95%;
+    height: 95%;
+    display: none;
+}
