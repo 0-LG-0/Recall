@@ -209,7 +209,7 @@ const winCheck = function() {
         win = true;
         winTally.Wins++;
     }
-    if (failCount >=4) {
+    if (failCount >= 8) {
         winTally.Losses++;
         lose = true;
     }
