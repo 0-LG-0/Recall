@@ -5,6 +5,10 @@
 ## Description
 This is a concentration based game where you must "recall" the positions of cards. Helps train the brain strengthening the players memory as they challenge themselves. Only becoming more difficult the more successful matchs the player makes. 
 
+## What I learned
+Introduced and familiarized myself to the use of timers for multiple different aspects of the game. Also I realized the true importance of conditionals and how much they are required in running apps. Other than that the project acted as a massive review for everything we've learned in class so far. Helping me hone my the skills I've been able to cultivate so far.
+
+
 ## Instructions
 The game is a played on a 30 card board containing 15 pairs. At first you are able to see the entire board using the "SHOW" button. Once the "START" button is pressed the game begins, all cards are hidden until chosen for a potential match. Using your recollection of the board, you must match the identical pairs. With each match the pair is removed from the board. Until the board is clear, resulting in a win. 
 
